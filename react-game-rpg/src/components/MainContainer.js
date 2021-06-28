@@ -1,6 +1,8 @@
 import React, { Component } from "react";
+import Game, { GAME } from "./Game"
 import Home from "./game/Home";
-import Game, { GAME } from "./game"
+import Start from "./game/Start";
+
 
 class MainContainer extends Component {
   state = {
@@ -15,8 +17,10 @@ class MainContainer extends Component {
     switch (this.state.currentGame) {
       case GAME.HOME:
         return <Home />;
+      case GAME.START:
+        return <Start />;
       default:
-        return <Home />
+        return <Home />;
     }
   }
 

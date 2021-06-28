@@ -1,11 +1,11 @@
 import React from "react";
 
-function Home() {
+function Start() {
   return (
     <div>
-      <h1>HOME STATE</h1>
+      <h1>START STATE</h1>
     </div>
   );
 }
 
-export default Home;
+export default Start;
