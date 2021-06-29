@@ -1,3 +1,14 @@
+* {
+  font: black;
+}
+
+body {
+  width: 1500px;
+  margin-right: auto;
+  margin-left: auto;
+  color: darkslateblue;
+}
+
 h1 {
   font-size: 40px;
 }

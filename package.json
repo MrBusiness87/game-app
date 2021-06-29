@@ -1,0 +1,22 @@
+{
+  "name": "react-game-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrBusiness87/react-game-app.git"
+  },
+  "author": "BORJAN BARTULA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrBusiness87/react-game-app/issues"
+  },
+  "homepage": "https://github.com/MrBusiness87/react-game-app#readme",
+  "dependencies": {
+    "node": "^16.3.0"
+  }
+}

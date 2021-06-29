@@ -1,7 +1,6 @@
 {
   "short_name": "React App",
   "name": "Create React App Sample",
-  "server": "http://localhost:8080/",
   "icons": [
     {
       "src": "favicon.ico",
