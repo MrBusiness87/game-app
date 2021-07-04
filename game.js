@@ -1,4 +1,4 @@
-// const start = document.getElementById("start");
+const start = document.getElementById("start");
 // const h1 = document.getElementById("h1");
 // const h2 = document.getElementById("h2");
 // const quiz = document.getElementById("quiz");
@@ -73,18 +73,18 @@
 //   choiceC.innerHTML = q.choiceC;
 // }
 
-// start.addEventListener("click", startQuiz);
+start.addEventListener("click", startGame);
 
-// function startQuiz() {
-//   h1.style.display = "none";
-//   h2.style.display = "none";
-//   start.style.display = "none";
-//   renderQuestion();
-//   quiz.style.display = "block";
-//   renderProgress();
-//   renderCounter();
-//   TIMER = setInterval(renderCounter, 1000);
-// }
+function startGame() {
+  h1.style.display = "none";
+  h2.style.display = "none";
+  start.style.display = "none";
+  renderQuestion();
+  quiz.style.display = "block";
+  renderProgress();
+  renderCounter();
+  TIMER = setInterval(renderCounter, 1000);
+}
 
 // function renderProgress() {
 //   for (let qIndex = 0; qIndex <= lastQuestion; qIndex++) {
